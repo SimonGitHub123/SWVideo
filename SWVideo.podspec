@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SWVideo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "SWVideo is iOS framework"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/SimonGitHub123/SWVideo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/SimonGitHub123/SWVideo.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
   s.ios.deployment_target = '8.0'
 
-  s.source_files  = "SWVideo/*"
+  s.source_files  = "SWVideo/Code/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
