@@ -7,6 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1826503D20CBCDC4009FE408 /* AVPlayerFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18264FFB20CBCDC3009FE408 /* AVPlayerFootView.swift */; };
+		1826503E20CBCDC4009FE408 /* AVPlayerGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18264FFC20CBCDC3009FE408 /* AVPlayerGesture.swift */; };
+		1826503F20CBCDC4009FE408 /* AVPlayerHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18264FFD20CBCDC3009FE408 /* AVPlayerHeadView.swift */; };
+		1826504020CBCDC4009FE408 /* AVPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18264FFE20CBCDC3009FE408 /* AVPlayerHelper.swift */; };
+		1826504120CBCDC4009FE408 /* AVPlayerManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18264FFF20CBCDC3009FE408 /* AVPlayerManage.swift */; };
+		1826504220CBCDC4009FE408 /* AVPlayerMiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826500020CBCDC3009FE408 /* AVPlayerMiddleView.swift */; };
+		1826504320CBCDC4009FE408 /* AVPlayerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826500120CBCDC3009FE408 /* AVPlayerSlider.swift */; };
+		1826504420CBCDC4009FE408 /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826500220CBCDC3009FE408 /* AVPlayerView.swift */; };
+		1826504520CBCDC4009FE408 /* fullScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500420CBCDC3009FE408 /* fullScreen@2x.png */; };
+		1826504620CBCDC4009FE408 /* fullScreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500520CBCDC3009FE408 /* fullScreen@3x.png */; };
+		1826504720CBCDC4009FE408 /* halfScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500620CBCDC3009FE408 /* halfScreen@2x.png */; };
+		1826504820CBCDC4009FE408 /* halfScreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500720CBCDC3009FE408 /* halfScreen@3x.png */; };
+		1826504920CBCDC4009FE408 /* videoLeftBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500820CBCDC3009FE408 /* videoLeftBack@2x.png */; };
+		1826504A20CBCDC4009FE408 /* videoLeftBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500920CBCDC3009FE408 /* videoLeftBack@3x.png */; };
+		1826504B20CBCDC4009FE408 /* videoLock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500A20CBCDC3009FE408 /* videoLock@2x.png */; };
+		1826504C20CBCDC4009FE408 /* videoLock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500B20CBCDC3009FE408 /* videoLock@3x.png */; };
+		1826504D20CBCDC4009FE408 /* videoPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500C20CBCDC3009FE408 /* videoPlay@2x.png */; };
+		1826504E20CBCDC4009FE408 /* videoPlay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500D20CBCDC3009FE408 /* videoPlay@3x.png */; };
+		1826504F20CBCDC4009FE408 /* videoPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500E20CBCDC3009FE408 /* videoPoint@2x.png */; };
+		1826505020CBCDC4009FE408 /* videoPoint@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826500F20CBCDC3009FE408 /* videoPoint@3x.png */; };
+		1826505120CBCDC4009FE408 /* videoShare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826501020CBCDC3009FE408 /* videoShare@2x.png */; };
+		1826505220CBCDC4009FE408 /* videoShare@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826501120CBCDC3009FE408 /* videoShare@3x.png */; };
+		1826505320CBCDC4009FE408 /* videoStop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826501220CBCDC3009FE408 /* videoStop@2x.png */; };
+		1826505420CBCDC4009FE408 /* videoStop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826501320CBCDC3009FE408 /* videoStop@3x.png */; };
+		1826505520CBCDC4009FE408 /* videoUnLock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826501420CBCDC3009FE408 /* videoUnLock@2x.png */; };
+		1826505620CBCDC4009FE408 /* videoUnLock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1826501520CBCDC3009FE408 /* videoUnLock@3x.png */; };
+		1826505720CBCDC4009FE408 /* VideoInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1826501720CBCDC3009FE408 /* VideoInfo.plist */; };
+		1826505820CBCDC4009FE408 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826501920CBCDC3009FE408 /* Constraint.swift */; };
+		1826505920CBCDC4009FE408 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826501A20CBCDC3009FE408 /* ConstraintAttributes.swift */; };
+		1826505A20CBCDC4009FE408 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826501B20CBCDC3009FE408 /* ConstraintConfig.swift */; };
+		1826505B20CBCDC4009FE408 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826501C20CBCDC3009FE408 /* ConstraintConstantTarget.swift */; };
+		1826505C20CBCDC4009FE408 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826501D20CBCDC3009FE408 /* ConstraintDescription.swift */; };
+		1826505D20CBCDC4009FE408 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826501E20CBCDC3009FE408 /* ConstraintDSL.swift */; };
+		1826505E20CBCDC4009FE408 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826501F20CBCDC3009FE408 /* ConstraintInsets.swift */; };
+		1826505F20CBCDC4009FE408 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502020CBCDC3009FE408 /* ConstraintInsetTarget.swift */; };
+		1826506020CBCDC4009FE408 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502120CBCDC3009FE408 /* ConstraintItem.swift */; };
+		1826506120CBCDC4009FE408 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502220CBCDC3009FE408 /* ConstraintLayoutGuide+Extensions.swift */; };
+		1826506220CBCDC4009FE408 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502320CBCDC3009FE408 /* ConstraintLayoutGuide.swift */; };
+		1826506320CBCDC4009FE408 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502420CBCDC3009FE408 /* ConstraintLayoutGuideDSL.swift */; };
+		1826506420CBCDC4009FE408 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502520CBCDC3009FE408 /* ConstraintLayoutSupport.swift */; };
+		1826506520CBCDC4009FE408 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502620CBCDC3009FE408 /* ConstraintLayoutSupportDSL.swift */; };
+		1826506620CBCDC4009FE408 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502720CBCDC3009FE408 /* ConstraintMaker.swift */; };
+		1826506720CBCDC4009FE408 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502820CBCDC3009FE408 /* ConstraintMakerEditable.swift */; };
+		1826506820CBCDC4009FE408 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502920CBCDC3009FE408 /* ConstraintMakerExtendable.swift */; };
+		1826506920CBCDC4009FE408 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502A20CBCDC3009FE408 /* ConstraintMakerFinalizable.swift */; };
+		1826506A20CBCDC4009FE408 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502B20CBCDC3009FE408 /* ConstraintMakerPriortizable.swift */; };
+		1826506B20CBCDC4009FE408 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502C20CBCDC3009FE408 /* ConstraintMakerRelatable.swift */; };
+		1826506C20CBCDC4009FE408 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502D20CBCDC3009FE408 /* ConstraintMultiplierTarget.swift */; };
+		1826506D20CBCDC4009FE408 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502E20CBCDC3009FE408 /* ConstraintOffsetTarget.swift */; };
+		1826506E20CBCDC4009FE408 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826502F20CBCDC3009FE408 /* ConstraintPriority.swift */; };
+		1826506F20CBCDC4009FE408 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503020CBCDC3009FE408 /* ConstraintPriorityTarget.swift */; };
+		1826507020CBCDC4009FE408 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503120CBCDC3009FE408 /* ConstraintRelatableTarget.swift */; };
+		1826507120CBCDC4009FE408 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503220CBCDC3009FE408 /* ConstraintRelation.swift */; };
+		1826507220CBCDC4009FE408 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503320CBCDC3009FE408 /* ConstraintView+Extensions.swift */; };
+		1826507320CBCDC4009FE408 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503420CBCDC3009FE408 /* ConstraintView.swift */; };
+		1826507420CBCDC4009FE408 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503520CBCDC3009FE408 /* ConstraintViewDSL.swift */; };
+		1826507520CBCDC4009FE408 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503620CBCDC3009FE408 /* Debugging.swift */; };
+		1826507620CBCDC4009FE408 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1826503720CBCDC3009FE408 /* Info.plist */; };
+		1826507720CBCDC4009FE408 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503820CBCDC3009FE408 /* LayoutConstraint.swift */; };
+		1826507820CBCDC4009FE408 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503920CBCDC3009FE408 /* LayoutConstraintItem.swift */; };
+		1826507920CBCDC4009FE408 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503B20CBCDC3009FE408 /* Typealiases.swift */; };
+		1826507A20CBCDC4009FE408 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503C20CBCDC3009FE408 /* UILayoutSupport+Extensions.swift */; };
 		18853C0420CBACF100CAA948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18853C0320CBACF100CAA948 /* AppDelegate.swift */; };
 		18853C0620CBACF100CAA948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18853C0520CBACF100CAA948 /* ViewController.swift */; };
 		18853C0920CBACF100CAA948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18853C0720CBACF100CAA948 /* Main.storyboard */; };
@@ -15,6 +77,70 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18264FFB20CBCDC3009FE408 /* AVPlayerFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerFootView.swift; sourceTree = "<group>"; };
+		18264FFC20CBCDC3009FE408 /* AVPlayerGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerGesture.swift; sourceTree = "<group>"; };
+		18264FFD20CBCDC3009FE408 /* AVPlayerHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerHeadView.swift; sourceTree = "<group>"; };
+		18264FFE20CBCDC3009FE408 /* AVPlayerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerHelper.swift; sourceTree = "<group>"; };
+		18264FFF20CBCDC3009FE408 /* AVPlayerManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerManage.swift; sourceTree = "<group>"; };
+		1826500020CBCDC3009FE408 /* AVPlayerMiddleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerMiddleView.swift; sourceTree = "<group>"; };
+		1826500120CBCDC3009FE408 /* AVPlayerSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerSlider.swift; sourceTree = "<group>"; };
+		1826500220CBCDC3009FE408 /* AVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		1826500420CBCDC3009FE408 /* fullScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullScreen@2x.png"; sourceTree = "<group>"; };
+		1826500520CBCDC3009FE408 /* fullScreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullScreen@3x.png"; sourceTree = "<group>"; };
+		1826500620CBCDC3009FE408 /* halfScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "halfScreen@2x.png"; sourceTree = "<group>"; };
+		1826500720CBCDC3009FE408 /* halfScreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "halfScreen@3x.png"; sourceTree = "<group>"; };
+		1826500820CBCDC3009FE408 /* videoLeftBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoLeftBack@2x.png"; sourceTree = "<group>"; };
+		1826500920CBCDC3009FE408 /* videoLeftBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoLeftBack@3x.png"; sourceTree = "<group>"; };
+		1826500A20CBCDC3009FE408 /* videoLock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoLock@2x.png"; sourceTree = "<group>"; };
+		1826500B20CBCDC3009FE408 /* videoLock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoLock@3x.png"; sourceTree = "<group>"; };
+		1826500C20CBCDC3009FE408 /* videoPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoPlay@2x.png"; sourceTree = "<group>"; };
+		1826500D20CBCDC3009FE408 /* videoPlay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoPlay@3x.png"; sourceTree = "<group>"; };
+		1826500E20CBCDC3009FE408 /* videoPoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoPoint@2x.png"; sourceTree = "<group>"; };
+		1826500F20CBCDC3009FE408 /* videoPoint@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoPoint@3x.png"; sourceTree = "<group>"; };
+		1826501020CBCDC3009FE408 /* videoShare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoShare@2x.png"; sourceTree = "<group>"; };
+		1826501120CBCDC3009FE408 /* videoShare@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoShare@3x.png"; sourceTree = "<group>"; };
+		1826501220CBCDC3009FE408 /* videoStop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoStop@2x.png"; sourceTree = "<group>"; };
+		1826501320CBCDC3009FE408 /* videoStop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoStop@3x.png"; sourceTree = "<group>"; };
+		1826501420CBCDC3009FE408 /* videoUnLock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoUnLock@2x.png"; sourceTree = "<group>"; };
+		1826501520CBCDC3009FE408 /* videoUnLock@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "videoUnLock@3x.png"; sourceTree = "<group>"; };
+		1826501620CBCDC3009FE408 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		1826501720CBCDC3009FE408 /* VideoInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VideoInfo.plist; sourceTree = "<group>"; };
+		1826501920CBCDC3009FE408 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		1826501A20CBCDC3009FE408 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		1826501B20CBCDC3009FE408 /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		1826501C20CBCDC3009FE408 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		1826501D20CBCDC3009FE408 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		1826501E20CBCDC3009FE408 /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		1826501F20CBCDC3009FE408 /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		1826502020CBCDC3009FE408 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		1826502120CBCDC3009FE408 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		1826502220CBCDC3009FE408 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		1826502320CBCDC3009FE408 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		1826502420CBCDC3009FE408 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		1826502520CBCDC3009FE408 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		1826502620CBCDC3009FE408 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		1826502720CBCDC3009FE408 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		1826502820CBCDC3009FE408 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		1826502920CBCDC3009FE408 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		1826502A20CBCDC3009FE408 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		1826502B20CBCDC3009FE408 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		1826502C20CBCDC3009FE408 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		1826502D20CBCDC3009FE408 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		1826502E20CBCDC3009FE408 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		1826502F20CBCDC3009FE408 /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		1826503020CBCDC3009FE408 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		1826503120CBCDC3009FE408 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		1826503220CBCDC3009FE408 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		1826503320CBCDC3009FE408 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		1826503420CBCDC3009FE408 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		1826503520CBCDC3009FE408 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		1826503620CBCDC3009FE408 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		1826503720CBCDC3009FE408 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1826503820CBCDC3009FE408 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		1826503920CBCDC3009FE408 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		1826503A20CBCDC3009FE408 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		1826503B20CBCDC3009FE408 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		1826503C20CBCDC3009FE408 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		18853C0020CBACF100CAA948 /* SWVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18853C0320CBACF100CAA948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18853C0520CBACF100CAA948 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +161,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18264FFA20CBCDC3009FE408 /* SWVideoCode */ = {
+			isa = PBXGroup;
+			children = (
+				18264FFB20CBCDC3009FE408 /* AVPlayerFootView.swift */,
+				18264FFC20CBCDC3009FE408 /* AVPlayerGesture.swift */,
+				18264FFD20CBCDC3009FE408 /* AVPlayerHeadView.swift */,
+				18264FFE20CBCDC3009FE408 /* AVPlayerHelper.swift */,
+				18264FFF20CBCDC3009FE408 /* AVPlayerManage.swift */,
+				1826500020CBCDC3009FE408 /* AVPlayerMiddleView.swift */,
+				1826500120CBCDC3009FE408 /* AVPlayerSlider.swift */,
+				1826500220CBCDC3009FE408 /* AVPlayerView.swift */,
+				1826500320CBCDC3009FE408 /* Image */,
+				1826501620CBCDC3009FE408 /* Video.h */,
+				1826501720CBCDC3009FE408 /* VideoInfo.plist */,
+			);
+			path = SWVideoCode;
+			sourceTree = "<group>";
+		};
+		1826500320CBCDC3009FE408 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1826500420CBCDC3009FE408 /* fullScreen@2x.png */,
+				1826500520CBCDC3009FE408 /* fullScreen@3x.png */,
+				1826500620CBCDC3009FE408 /* halfScreen@2x.png */,
+				1826500720CBCDC3009FE408 /* halfScreen@3x.png */,
+				1826500820CBCDC3009FE408 /* videoLeftBack@2x.png */,
+				1826500920CBCDC3009FE408 /* videoLeftBack@3x.png */,
+				1826500A20CBCDC3009FE408 /* videoLock@2x.png */,
+				1826500B20CBCDC3009FE408 /* videoLock@3x.png */,
+				1826500C20CBCDC3009FE408 /* videoPlay@2x.png */,
+				1826500D20CBCDC3009FE408 /* videoPlay@3x.png */,
+				1826500E20CBCDC3009FE408 /* videoPoint@2x.png */,
+				1826500F20CBCDC3009FE408 /* videoPoint@3x.png */,
+				1826501020CBCDC3009FE408 /* videoShare@2x.png */,
+				1826501120CBCDC3009FE408 /* videoShare@3x.png */,
+				1826501220CBCDC3009FE408 /* videoStop@2x.png */,
+				1826501320CBCDC3009FE408 /* videoStop@3x.png */,
+				1826501420CBCDC3009FE408 /* videoUnLock@2x.png */,
+				1826501520CBCDC3009FE408 /* videoUnLock@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		1826501820CBCDC3009FE408 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				1826501920CBCDC3009FE408 /* Constraint.swift */,
+				1826501A20CBCDC3009FE408 /* ConstraintAttributes.swift */,
+				1826501B20CBCDC3009FE408 /* ConstraintConfig.swift */,
+				1826501C20CBCDC3009FE408 /* ConstraintConstantTarget.swift */,
+				1826501D20CBCDC3009FE408 /* ConstraintDescription.swift */,
+				1826501E20CBCDC3009FE408 /* ConstraintDSL.swift */,
+				1826501F20CBCDC3009FE408 /* ConstraintInsets.swift */,
+				1826502020CBCDC3009FE408 /* ConstraintInsetTarget.swift */,
+				1826502120CBCDC3009FE408 /* ConstraintItem.swift */,
+				1826502220CBCDC3009FE408 /* ConstraintLayoutGuide+Extensions.swift */,
+				1826502320CBCDC3009FE408 /* ConstraintLayoutGuide.swift */,
+				1826502420CBCDC3009FE408 /* ConstraintLayoutGuideDSL.swift */,
+				1826502520CBCDC3009FE408 /* ConstraintLayoutSupport.swift */,
+				1826502620CBCDC3009FE408 /* ConstraintLayoutSupportDSL.swift */,
+				1826502720CBCDC3009FE408 /* ConstraintMaker.swift */,
+				1826502820CBCDC3009FE408 /* ConstraintMakerEditable.swift */,
+				1826502920CBCDC3009FE408 /* ConstraintMakerExtendable.swift */,
+				1826502A20CBCDC3009FE408 /* ConstraintMakerFinalizable.swift */,
+				1826502B20CBCDC3009FE408 /* ConstraintMakerPriortizable.swift */,
+				1826502C20CBCDC3009FE408 /* ConstraintMakerRelatable.swift */,
+				1826502D20CBCDC3009FE408 /* ConstraintMultiplierTarget.swift */,
+				1826502E20CBCDC3009FE408 /* ConstraintOffsetTarget.swift */,
+				1826502F20CBCDC3009FE408 /* ConstraintPriority.swift */,
+				1826503020CBCDC3009FE408 /* ConstraintPriorityTarget.swift */,
+				1826503120CBCDC3009FE408 /* ConstraintRelatableTarget.swift */,
+				1826503220CBCDC3009FE408 /* ConstraintRelation.swift */,
+				1826503320CBCDC3009FE408 /* ConstraintView+Extensions.swift */,
+				1826503420CBCDC3009FE408 /* ConstraintView.swift */,
+				1826503520CBCDC3009FE408 /* ConstraintViewDSL.swift */,
+				1826503620CBCDC3009FE408 /* Debugging.swift */,
+				1826503720CBCDC3009FE408 /* Info.plist */,
+				1826503820CBCDC3009FE408 /* LayoutConstraint.swift */,
+				1826503920CBCDC3009FE408 /* LayoutConstraintItem.swift */,
+				1826503A20CBCDC3009FE408 /* SnapKit.h */,
+				1826503B20CBCDC3009FE408 /* Typealiases.swift */,
+				1826503C20CBCDC3009FE408 /* UILayoutSupport+Extensions.swift */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
 		18853BF720CBACF100CAA948 = {
 			isa = PBXGroup;
 			children = (
+				1826501820CBCDC3009FE408 /* SnapKit */,
+				18264FFA20CBCDC3009FE408 /* SWVideoCode */,
 				18853C0220CBACF100CAA948 /* SWVideo */,
 				18853C0120CBACF100CAA948 /* Products */,
 			);
@@ -122,8 +336,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1826505720CBCDC4009FE408 /* VideoInfo.plist in Resources */,
 				18853C0E20CBACF300CAA948 /* LaunchScreen.storyboard in Resources */,
+				1826505420CBCDC4009FE408 /* videoStop@3x.png in Resources */,
+				1826504520CBCDC4009FE408 /* fullScreen@2x.png in Resources */,
+				1826505220CBCDC4009FE408 /* videoShare@3x.png in Resources */,
+				1826504820CBCDC4009FE408 /* halfScreen@3x.png in Resources */,
+				1826505320CBCDC4009FE408 /* videoStop@2x.png in Resources */,
+				1826504B20CBCDC4009FE408 /* videoLock@2x.png in Resources */,
+				1826504620CBCDC4009FE408 /* fullScreen@3x.png in Resources */,
+				1826505020CBCDC4009FE408 /* videoPoint@3x.png in Resources */,
+				1826507620CBCDC4009FE408 /* Info.plist in Resources */,
+				1826504920CBCDC4009FE408 /* videoLeftBack@2x.png in Resources */,
+				1826504720CBCDC4009FE408 /* halfScreen@2x.png in Resources */,
+				1826505120CBCDC4009FE408 /* videoShare@2x.png in Resources */,
+				1826504E20CBCDC4009FE408 /* videoPlay@3x.png in Resources */,
 				18853C0B20CBACF300CAA948 /* Assets.xcassets in Resources */,
+				1826504F20CBCDC4009FE408 /* videoPoint@2x.png in Resources */,
+				1826504A20CBCDC4009FE408 /* videoLeftBack@3x.png in Resources */,
+				1826505620CBCDC4009FE408 /* videoUnLock@3x.png in Resources */,
+				1826504C20CBCDC4009FE408 /* videoLock@3x.png in Resources */,
+				1826504D20CBCDC4009FE408 /* videoPlay@2x.png in Resources */,
+				1826505520CBCDC4009FE408 /* videoUnLock@2x.png in Resources */,
 				18853C0920CBACF100CAA948 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +370,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				18853C0620CBACF100CAA948 /* ViewController.swift in Sources */,
+				1826506420CBCDC4009FE408 /* ConstraintLayoutSupport.swift in Sources */,
+				1826506B20CBCDC4009FE408 /* ConstraintMakerRelatable.swift in Sources */,
+				1826507020CBCDC4009FE408 /* ConstraintRelatableTarget.swift in Sources */,
+				1826507220CBCDC4009FE408 /* ConstraintView+Extensions.swift in Sources */,
+				1826506120CBCDC4009FE408 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				1826507A20CBCDC4009FE408 /* UILayoutSupport+Extensions.swift in Sources */,
+				1826504220CBCDC4009FE408 /* AVPlayerMiddleView.swift in Sources */,
+				1826504120CBCDC4009FE408 /* AVPlayerManage.swift in Sources */,
+				1826506020CBCDC4009FE408 /* ConstraintItem.swift in Sources */,
+				1826505B20CBCDC4009FE408 /* ConstraintConstantTarget.swift in Sources */,
+				1826506220CBCDC4009FE408 /* ConstraintLayoutGuide.swift in Sources */,
+				1826507120CBCDC4009FE408 /* ConstraintRelation.swift in Sources */,
+				1826505A20CBCDC4009FE408 /* ConstraintConfig.swift in Sources */,
+				1826507320CBCDC4009FE408 /* ConstraintView.swift in Sources */,
+				1826506D20CBCDC4009FE408 /* ConstraintOffsetTarget.swift in Sources */,
+				1826506E20CBCDC4009FE408 /* ConstraintPriority.swift in Sources */,
 				18853C0420CBACF100CAA948 /* AppDelegate.swift in Sources */,
+				1826506320CBCDC4009FE408 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				1826505D20CBCDC4009FE408 /* ConstraintDSL.swift in Sources */,
+				1826507720CBCDC4009FE408 /* LayoutConstraint.swift in Sources */,
+				1826504420CBCDC4009FE408 /* AVPlayerView.swift in Sources */,
+				1826503D20CBCDC4009FE408 /* AVPlayerFootView.swift in Sources */,
+				1826504020CBCDC4009FE408 /* AVPlayerHelper.swift in Sources */,
+				1826507820CBCDC4009FE408 /* LayoutConstraintItem.swift in Sources */,
+				1826507520CBCDC4009FE408 /* Debugging.swift in Sources */,
+				1826506720CBCDC4009FE408 /* ConstraintMakerEditable.swift in Sources */,
+				1826506C20CBCDC4009FE408 /* ConstraintMultiplierTarget.swift in Sources */,
+				1826505820CBCDC4009FE408 /* Constraint.swift in Sources */,
+				1826505E20CBCDC4009FE408 /* ConstraintInsets.swift in Sources */,
+				1826506A20CBCDC4009FE408 /* ConstraintMakerPriortizable.swift in Sources */,
+				1826506920CBCDC4009FE408 /* ConstraintMakerFinalizable.swift in Sources */,
+				1826503F20CBCDC4009FE408 /* AVPlayerHeadView.swift in Sources */,
+				1826507420CBCDC4009FE408 /* ConstraintViewDSL.swift in Sources */,
+				1826505F20CBCDC4009FE408 /* ConstraintInsetTarget.swift in Sources */,
+				1826505920CBCDC4009FE408 /* ConstraintAttributes.swift in Sources */,
+				1826506520CBCDC4009FE408 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				1826506620CBCDC4009FE408 /* ConstraintMaker.swift in Sources */,
+				1826506F20CBCDC4009FE408 /* ConstraintPriorityTarget.swift in Sources */,
+				1826503E20CBCDC4009FE408 /* AVPlayerGesture.swift in Sources */,
+				1826504320CBCDC4009FE408 /* AVPlayerSlider.swift in Sources */,
+				1826505C20CBCDC4009FE408 /* ConstraintDescription.swift in Sources */,
+				1826507920CBCDC4009FE408 /* Typealiases.swift in Sources */,
+				1826506820CBCDC4009FE408 /* ConstraintMakerExtendable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

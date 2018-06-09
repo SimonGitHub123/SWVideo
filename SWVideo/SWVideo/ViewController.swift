@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let playerVC = AVPlayerManage.getInstance()
+        playerVC.initAVPlayer("http://bos.nj.bpc.baidu.com/tieba-smallvideo/11772_3c435014fb2dd9a5fd56a57cc369f6a0.mp4")
+        self.addChildViewController(playerVC)
+        self.view.addSubview(playerVC.view)
+        self.view.backgroundColor = UIColor.black
     }
 
     override func didReceiveMemoryWarning() {
