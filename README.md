@@ -1,5 +1,8 @@
 # SWVideo
 
+## Summary
+[image](https://github.com/SimonGitHub123/SWVideo/blob/master/summary.gif)
+
 ## Requirements
 - iOS8.0+ / Mac OS X 10.11+
 - Xcode 9.0+
