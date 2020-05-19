@@ -1,4 +1,4 @@
-# SWVideo
+# QSVideo
 
 ## Summary
 ![image](https://github.com/SimonGitHub123/SWVideo/blob/master/summary.gif)
