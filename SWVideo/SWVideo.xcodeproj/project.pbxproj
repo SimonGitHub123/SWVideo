@@ -64,7 +64,6 @@
 		1826507320CBCDC4009FE408 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503420CBCDC3009FE408 /* ConstraintView.swift */; };
 		1826507420CBCDC4009FE408 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503520CBCDC3009FE408 /* ConstraintViewDSL.swift */; };
 		1826507520CBCDC4009FE408 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503620CBCDC3009FE408 /* Debugging.swift */; };
-		1826507620CBCDC4009FE408 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1826503720CBCDC3009FE408 /* Info.plist */; };
 		1826507720CBCDC4009FE408 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503820CBCDC3009FE408 /* LayoutConstraint.swift */; };
 		1826507820CBCDC4009FE408 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503920CBCDC3009FE408 /* LayoutConstraintItem.swift */; };
 		1826507920CBCDC4009FE408 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826503B20CBCDC3009FE408 /* Typealiases.swift */; };
@@ -135,7 +134,6 @@
 		1826503420CBCDC3009FE408 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
 		1826503520CBCDC3009FE408 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		1826503620CBCDC3009FE408 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
-		1826503720CBCDC3009FE408 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1826503820CBCDC3009FE408 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
 		1826503920CBCDC3009FE408 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		1826503A20CBCDC3009FE408 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
@@ -237,7 +235,6 @@
 				1826503420CBCDC3009FE408 /* ConstraintView.swift */,
 				1826503520CBCDC3009FE408 /* ConstraintViewDSL.swift */,
 				1826503620CBCDC3009FE408 /* Debugging.swift */,
-				1826503720CBCDC3009FE408 /* Info.plist */,
 				1826503820CBCDC3009FE408 /* LayoutConstraint.swift */,
 				1826503920CBCDC3009FE408 /* LayoutConstraintItem.swift */,
 				1826503A20CBCDC3009FE408 /* SnapKit.h */,
@@ -346,7 +343,6 @@
 				1826504B20CBCDC4009FE408 /* videoLock@2x.png in Resources */,
 				1826504620CBCDC4009FE408 /* fullScreen@3x.png in Resources */,
 				1826505020CBCDC4009FE408 /* videoPoint@3x.png in Resources */,
-				1826507620CBCDC4009FE408 /* Info.plist in Resources */,
 				1826504920CBCDC4009FE408 /* videoLeftBack@2x.png in Resources */,
 				1826504720CBCDC4009FE408 /* halfScreen@2x.png in Resources */,
 				1826505120CBCDC4009FE408 /* videoShare@2x.png in Resources */,
